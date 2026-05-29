@@ -1,0 +1,1606 @@
+
+> ctrl-alt-learn@0.1.0 predev
+> npm run generate:lesson-loaders
+
+
+> ctrl-alt-learn@0.1.0 generate:lesson-loaders
+> node scripts/generate-lesson-loaders.mjs
+
+lib\lesson-loaders.generated.ts is up to date (2338 loaders).
+
+> ctrl-alt-learn@0.1.0 dev
+> next dev --port 3000
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.190:3000
+- Environments: .env
+✓ Ready in 1033ms
+Creating turbopack project {
+  dir: 'C:\\Users\\VATSAL VARSHNEY\\OneDrive\\Desktop\\Think++',
+  testMode: true
+}
+
+✓ Finished writing to filesystem cache in 10.1s
+ GET / 200 in 5.2s (next.js: 3.3s, application-code: 1860ms)
+[browser] updating from  114 to  122 (file://C:/Users/VATSAL VARSHNEY/OneDrive/Desktop/Think++/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+✓ Finished filesystem cache database compaction in 14.5s
+ GET / 200 in 1677ms (next.js: 75ms, application-code: 1602ms)
+[browser] updating from  114 to  122 (file://C:/Users/VATSAL VARSHNEY/OneDrive/Desktop/Think++/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 969ms (next.js: 434ms, application-code: 535ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://C:/Users/VATSAL VARSHNEY/OneDrive/Desktop/Think++/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence 200 in 6.1s (next.js: 3.8s, generate-params: 3.4s, application-code: 2.3s)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Registry] Lookup Topic: artificial-intelligence/frameworks -> Found: true
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence/frameworks 200 in 2.6s (next.js: 1726ms, generate-params: 1443ms, application-code: 826ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence/frameworks/HuggingFace 200 in 4.8s (next.js: 2.6s, generate-params: 1668ms, application-code: 2.2s)
+ GET /curriculum/artificial-intelligence/frameworks/HuggingFace 200 in 1226ms (next.js: 284ms, generate-params: 56ms, application-code: 942ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence/frameworks/NumPy 200 in 1190ms (next.js: 194ms, generate-params: 50ms, application-code: 996ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence/frameworks/Pandas 200 in 1475ms (next.js: 415ms, generate-params: 141ms, application-code: 1060ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+ GET /curriculum/artificial-intelligence/frameworks/ScikitLearn 200 in 1972ms (next.js: 94ms, generate-params: 26ms, application-code: 1878ms)
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence/frameworks/HuggingFace 200 in 726ms (next.js: 176ms, generate-params: 42ms, application-code: 549ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+ GET /curriculum/artificial-intelligence 200 in 5.0s (next.js: 176ms, generate-params: 44ms, application-code: 4.8s)
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence 200 in 530ms (next.js: 294ms, generate-params: 21ms, application-code: 235ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+✓ Compiled in 28.7s
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+ GET /curriculum/artificial-intelligence 200 in 789ms (next.js: 387ms, generate-params: 17ms, application-code: 401ms)
+ GET /curriculum/artificial-intelligence 200 in 177ms (next.js: 16ms, generate-params: 133µs, application-code: 161ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+ GET /curriculum/artificial-intelligence 200 in 4.2s (next.js: 179ms, generate-params: 148ms, application-code: 4.0s)
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Crawl] Subject "artificial-intelligence" raw topic dirs: [
+  'computer-vision',
+  'deep-learning',
+  'frameworks',
+  'generative-ai',
+  'machine-learning',
+  'mathematics',
+  'mlops',
+  'natural-language-processing',
+  'projects',
+  'reinforcement-learning'
+]
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+✓ Compiled in 119.4s
+ GET /curriculum/artificial-intelligence 200 in 16.8s (next.js: 5.2s, generate-params: 683ms, application-code: 11.5s)
+ GET /curriculum/artificial-intelligence 200 in 18.7s (next.js: 6.6s, generate-params: 84µs, application-code: 12.1s)
+✓ Compiled in 8.3s
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 610ms (next.js: 271ms, application-code: 339ms)
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+✓ Compiled in 90.3s
+[Content-Crawl] Subject "signals-and-systems" raw topic dirs: [
+  '01-introduction-to-signals-and-systems',
+  '02-classification-of-signals',
+  '03-system-properties',
+  '04-continuous-time-systems',
+  '05-discrete-time-systems',
+  '06-convolution-and-correlation',
+  '07-fourier-series',
+  '08-continuous-time-fourier-transform',
+  '09-discrete-time-fourier-transform',
+  '10-laplace-transform',
+  '11-z-transform',
+  '12-sampling-and-reconstruction',
+  '13-filtering-and-frequency-response',
+  '14-digital-signal-processing-basics',
+  '15-communication-signal-basics',
+  '16-random-signals-and-noise',
+  '17-modern-and-advanced-topics',
+  '18-applications-of-signals-and-systems',
+  '19-laboratory-and-simulations'
+]
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+ GET /curriculum/signals-and-systems 200 in 848ms (next.js: 360ms, generate-params: 16ms, application-code: 488ms)
+ GET /curriculum/dsa 200 in 3.1min (next.js: 11.9s, generate-params: 49ms, application-code: 2.9min)
+ GET /curriculum/dsa 200 in 833ms (next.js: 512ms, generate-params: 66µs, application-code: 322ms)
+ GET /curriculum/dsa 200 in 843ms (next.js: 578ms, generate-params: 39µs, application-code: 265ms)
+ GET /curriculum/dsa 200 in 838ms (next.js: 639ms, generate-params: 36µs, application-code: 199ms)
+ GET /curriculum/dsa 200 in 833ms (next.js: 704ms, generate-params: 63µs, application-code: 129ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 1061ms (next.js: 379ms, application-code: 682ms)
+ GET /curriculum/dsa 200 in 1073ms (next.js: 518ms, generate-params: 47µs, application-code: 554ms)
+ GET /curriculum 200 in 502ms (next.js: 23ms, application-code: 479ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 772ms (next.js: 13ms, application-code: 760ms)
+ GET /curriculum 200 in 772ms (next.js: 118ms, application-code: 654ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 831ms (next.js: 11ms, application-code: 820ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 854ms (next.js: 37ms, application-code: 818ms)
+ GET /curriculum 200 in 615ms (next.js: 9ms, application-code: 606ms)
+ GET /curriculum 200 in 459ms (next.js: 16ms, application-code: 444ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 544ms (next.js: 8ms, application-code: 536ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 628ms (next.js: 88ms, application-code: 540ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 561ms (next.js: 6ms, application-code: 555ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 586ms (next.js: 11ms, application-code: 575ms)
+ GET /curriculum 200 in 490ms (next.js: 21ms, application-code: 469ms)
+ GET /curriculum 200 in 389ms (next.js: 10ms, application-code: 380ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 469ms (next.js: 10ms, application-code: 459ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 455ms (next.js: 16ms, application-code: 439ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 456ms (next.js: 8ms, application-code: 448ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 553ms (next.js: 9ms, application-code: 544ms)
+ GET /curriculum 200 in 552ms (next.js: 90ms, application-code: 462ms)
+ GET /curriculum 200 in 390ms (next.js: 11ms, application-code: 379ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 393ms (next.js: 14ms, application-code: 379ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 472ms (next.js: 9ms, application-code: 463ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 490ms (next.js: 8ms, application-code: 482ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 575ms (next.js: 10ms, application-code: 565ms)
+ GET /curriculum 200 in 573ms (next.js: 98ms, application-code: 475ms)
+ GET /curriculum 200 in 394ms (next.js: 7ms, application-code: 387ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 386ms (next.js: 25ms, application-code: 361ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 463ms (next.js: 15ms, application-code: 448ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 471ms (next.js: 11ms, application-code: 459ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 559ms (next.js: 9ms, application-code: 551ms)
+ GET /curriculum 200 in 559ms (next.js: 83ms, application-code: 476ms)
+ GET /curriculum 200 in 412ms (next.js: 8ms, application-code: 404ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 418ms (next.js: 23ms, application-code: 395ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 601ms (next.js: 11ms, application-code: 590ms)
+ GET /curriculum 200 in 520ms (next.js: 12ms, application-code: 507ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 639ms (next.js: 11ms, application-code: 628ms)
+ GET /curriculum 200 in 642ms (next.js: 97ms, application-code: 544ms)
+ GET /curriculum 200 in 447ms (next.js: 12ms, application-code: 435ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 415ms (next.js: 16ms, application-code: 399ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 655ms (next.js: 8ms, application-code: 647ms)
+ GET /curriculum 200 in 657ms (next.js: 103ms, application-code: 554ms)
+ GET /curriculum 200 in 481ms (next.js: 8ms, application-code: 473ms)
+ GET /curriculum 200 in 398ms (next.js: 20ms, application-code: 378ms)
+ GET /curriculum 200 in 400ms (next.js: 138ms, application-code: 262ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 1807ms (next.js: 1207ms, application-code: 600ms)
+ GET /curriculum 200 in 1742ms (next.js: 1240ms, application-code: 502ms)
+ GET /curriculum 200 in 1749ms (next.js: 1462ms, application-code: 286ms)
+ GET /curriculum 200 in 1855ms (next.js: 1469ms, application-code: 386ms)
+ GET /curriculum 200 in 1743ms (next.js: 1640ms, application-code: 103ms)
+ GET /curriculum 200 in 1822ms (next.js: 1629ms, application-code: 194ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 4.0s (next.js: 13ms, application-code: 4.0s)
+ GET /curriculum 200 in 4.0s (next.js: 90ms, application-code: 3.9s)
+ GET /curriculum 200 in 4.0s (next.js: 313ms, application-code: 3.7s)
+ GET /curriculum 200 in 4.0s (next.js: 179ms, application-code: 3.9s)
+ GET /curriculum 200 in 4.0s (next.js: 318ms, application-code: 3.6s)
+ GET /curriculum 200 in 3.7s (next.js: 3.3s, application-code: 347ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+ GET /curriculum 200 in 1224ms (next.js: 27ms, application-code: 1197ms)
+ GET /curriculum 200 in 1221ms (next.js: 223ms, application-code: 998ms)
+ GET /curriculum 200 in 1220ms (next.js: 441ms, application-code: 779ms)
+ GET /curriculum 200 in 1025ms (next.js: 520ms, application-code: 505ms)
+ GET /curriculum 200 in 1025ms (next.js: 740ms, application-code: 285ms)
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+ GET /curriculum/dsa 200 in 282ms (next.js: 88ms, generate-params: 23ms, application-code: 194ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+ GET /curriculum/dsa 200 in 359ms (next.js: 173ms, generate-params: 15ms, application-code: 186ms)
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://C:/Users/VATSAL VARSHNEY/OneDrive/Desktop/Think++/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[Content-Crawl] Subject "dsa" raw topic dirs: [
+  'arrays',
+  'cpp-fundamentals',
+  'dynamic-programming',
+  'graphs',
+  'hashing',
+  'linked-list',
+  'problem-solving-basics',
+  'recursion-backtracking',
+  'searching-sorting',
+  'stack-queue',
+  'strings',
+  'time-space-complexity',
+  'trees'
+]
+[Content-Crawl] Starting getSubjectsFromFS...
+[Content-Crawl] Root: C:\Users\VATSAL VARSHNEY\OneDrive\Desktop\Think++\content
+[Content-Crawl] Found in /content: artificial-intelligence, communication-systems, compiler-design, computer-networks, computer-organization-and-architecture, control-systems, database-management-system, digital-electronics, dsa, operating-system, signals-and-systems
+[Content-Crawl] Processing Subject: dsa
+ GET /curriculum/dsa 200 in 1108ms (next.js: 48ms, generate-params: 25ms, application-code: 1060ms)
+[Content-Crawl] Processing Subject: artificial-intelligence
+[Content-Crawl] Skipping cn: No matching folder found in /content
+[Content-Crawl] Processing Subject: digital-electronics
+[Content-Crawl] Skipping coa: No matching folder found in /content
+[Content-Crawl] Skipping os: No matching folder found in /content
+[Content-Crawl] Processing Subject: signals-and-systems
+[Content-Crawl] Processing Subject: communication-systems
+[Content-Crawl] Skipping dbms: No matching folder found in /content
+[Content-Crawl] Processing Subject: control-systems
+[Content-Crawl] Processing Subject: compiler-design
